@@ -9,7 +9,8 @@
     "db:create": "sequelize db:create",
     "db:drop": "sequelize db:drop",
     "db:migrate": "sequelize db:migrate",
-    "db:seed": "sequelize db:seed:undo:all && sequelize db:seed:all"
+    "db:seed": "sequelize db:seed:undo:all && sequelize db:seed:all",
+    "eslint": "eslint ./app/controllers/index.js --resolve-plugins-relative-to ."
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -25,6 +26,22 @@
     "swagger-ui-express": "^4.4.0"
   },
   "devDependencies": {
+    "eslint": "^8.17.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
     "nodemon": "^2.0.16"
-  }
+  },
+  "description": "Di dalam repository ini terdapat implementasi API dari Binar Car Rental.\r Tugas kalian disini adalah:\r 1. Fork repository\r 2. Tulis unit test di dalam repository ini menggunakan `jest`.\r 3. Coverage minimal 70%",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/sme-kampus-merdeka/fullstack-web-developer/chapter-8/challenge-template/back-end.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://gitlab.com/sme-kampus-merdeka/fullstack-web-developer/chapter-8/challenge-template/back-end/issues"
+  },
+  "homepage": "https://gitlab.com/sme-kampus-merdeka/fullstack-web-developer/chapter-8/challenge-template/back-end#readme"
 }
