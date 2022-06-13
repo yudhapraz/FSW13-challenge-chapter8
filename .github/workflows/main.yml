@@ -16,9 +16,9 @@ jobs:
           heroku_app_name: "challenge-chapter8-yudhagana" #Must be unique in Heroku
           heroku_email: "yudha.gana7@gmail.com"
         env:
-        HD_JWT_SIGNATURE_KEY: ${{secrets.JWT_SIGNATURE_KEY}}
-        HD_DB_USER: ${{secrets.DB_USER}}
-        HD_DB_PASSOWRD: ${{secrets.DB_PASSWORD}}
-        HD_DB_NAME: ${{secrets.DB_NAME}}
-        HD_DB_HOST: ${{secrets.DB_HOST}}
-        HD_DB_PORT: ${{secrets.DB_PORT}}
+          HD_JWT_SIGNATURE_KEY: ${{secrets.JWT_SIGNATURE_KEY}}
+          HD_DB_USER: ${{secrets.DB_USER}}
+          HD_DB_PASSOWRD: ${{secrets.DB_PASSWORD}}
+          HD_DB_NAME: ${{secrets.DB_NAME}}
+          HD_DB_HOST: ${{secrets.DB_HOST}}
+          HD_DB_PORT: ${{secrets.DB_PORT}}
