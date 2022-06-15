@@ -11,5 +11,17 @@
         "ecmaVersion": "latest"
     },
     "rules": {
+        "class-methods-use-this": ["error", { "enforceForClassFields": false }],
+        "import/no-dynamic-require": "off",
+        "global-require": "off",
+        "no-unused-vars": "off",
+        "linebreak-style": 0,
+        "no-useless-escape": "off",
+        "no-return-await": "off",
+        "no-self-assign": "off",
+        "no-undef": "off",
+        "no-unreachable": "off",
+        "arrow-body-style": "off",
+        "no-restricted-globals": "off"
     }
 }
